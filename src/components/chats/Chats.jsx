@@ -32,7 +32,7 @@ setOpen(false)
 <div className="message">
   <img src="avatar.png" alt="" />
   <div className="texts">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, doloribus? </p>
     <span>1 min ago</span>
   </div>
 </div>
@@ -40,7 +40,7 @@ setOpen(false)
 <div className="message own">
 
   <div className="texts">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed quidem maxime voluptatum debitis, nihil nesciunt tempore libero dicta quisquam.</p>
     <span>1 min ago</span>
   </div>
 </div>
@@ -48,7 +48,7 @@ setOpen(false)
 <div className="message">
 <img src="avatar.png" alt="" />
   <div className="texts">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, beatae.</p>
     <span>1 min ago</span>
   </div>
 </div>
@@ -56,7 +56,7 @@ setOpen(false)
 <div className="message own">
 
   <div className="texts">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis exercitationem nemo molestiae? Praesentium placeat possimus nemo cumque rem cum facere.</p>
     <span>1 min ago</span>
   </div>
 </div>
@@ -65,7 +65,8 @@ setOpen(false)
 <div className="message ">
 <img src="avatar.png" alt="" />
   <div className="texts">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto omnis ad nemo odio sed quas, quia delectus sint illum quo!
+    </p>
     <span>1 min ago</span>
   </div>
 </div>
@@ -73,7 +74,7 @@ setOpen(false)
 <div className="message own">
 
   <div className="texts">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nesciunt, sequi veritatis illum inventore quae corporis eius quos ex quisquam?</p>
     <span>1 min ago</span>
   </div>
 </div>
@@ -82,7 +83,7 @@ setOpen(false)
 <div className="message ">
 <img src="avatar.png" alt="" />
   <div className="texts">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quibusdam necessitatibus laboriosam voluptatum consequuntur minima maxime quos tempore tenetur perspiciatis!</p>
     <span>1 min ago</span>
   </div>
 </div>
@@ -90,7 +91,7 @@ setOpen(false)
 <div className="message own">
 
   <div className="texts">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis atque qui quibusdam? Deserunt tenetur, impedit repellat similique animi laboriosam at!</p>
     <span>1 min ago</span>
   </div>
 </div>
@@ -100,7 +101,7 @@ setOpen(false)
 <div className="message ">
 <img src="avatar.png" alt="" />
   <div className="texts">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatibus cupiditate dolore consequuntur expedita deleniti. </p>
     <span>1 min ago</span>
   </div>
 </div>
@@ -108,7 +109,7 @@ setOpen(false)
 <div className="message own">
 
   <div className="texts">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore explicabo sequi debitis laborum! Id, cupiditate alias aspernatur illo dignissimos rerum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore explicabo sequi debitis laborum! Id, cupiditate alias aspernatur illo dignissimos rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eaque consequuntur praesentium ab impedit cupiditate molestias dolor nulla. Aspernatur, commodi! </p>
     <span>1 min ago</span>
   </div>
 </div>
@@ -116,7 +117,7 @@ setOpen(false)
 <div className="message ">
 <img src="avatar.png" alt="" />
   <div className="texts">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum debitis nobis autem sint.</p>
     <span>1 min ago</span>
   </div>
 </div>
