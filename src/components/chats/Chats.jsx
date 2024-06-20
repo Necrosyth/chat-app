@@ -74,7 +74,7 @@ setOpen(false)
 <div className="message own">
 
   <div className="texts">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nesciunt, sequi veritatis illum inventore quae corporis eius quos ex quisquam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem ipsum, dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quod. sit amet consectetur adipisicing elit. Sed nesciunt, sequi veritatis illum inventore quae corporis eius quos ex quisquam?</p>
     <span>1 min ago</span>
   </div>
 </div>
