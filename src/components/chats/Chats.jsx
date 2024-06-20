@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect,useRef } from "react";
 import "./chats.css"
 import EmojiPicker from "emoji-picker-react";
 const Chats = () => {
@@ -8,6 +8,24 @@ const Chats = () => {
 setText((prev)=>prev+e.emoji);
 setOpen(false)
   }
+
+  const endRef=useRef(null)
+  useEffect(() => {
+    if (endRef.current) {
+      endRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+  
+
+
+
+
+
+
+
+
+
+  
  
 
   return (
@@ -114,15 +132,17 @@ setOpen(false)
   </div>
 </div>
 
-<div className="message ">
-<img src="avatar.png" alt="" />
+<div className="message own">
+  <img src="https://images.pexels.com/photos/20780455/pexels-photo-20780455/free-photo-of-storm-cloud-and-fog-over-countryside-at-sunset.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+{/* <img src="avatar.png" alt="" /> */}
   <div className="texts">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum debitis nobis autem sint.</p>
     <span>1 min ago</span>
   </div>
 </div>
-
+<div ref={endRef}></div>
   </div>
+
   <div className="bottom">
     <div className="icons">
       <img src="./camera.png" alt="" />
