@@ -57,7 +57,7 @@ setOpen(false)
 
   <div className="texts">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis exercitationem nemo molestiae? Praesentium placeat possimus nemo cumque rem cum facere.</p>
-    <span>1 min ago</span>
+    <span>2 min ago</span>
   </div>
 </div>
 
