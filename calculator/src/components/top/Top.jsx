@@ -1,11 +1,11 @@
 import React from 'react'
 
-const TestPage = () => {
+const Top = () => {
   return (
     <div>
-      hi
+      this is the top
     </div>
   )
 }
 
-export default TestPage
+export default Top
