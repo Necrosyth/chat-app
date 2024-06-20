@@ -65,7 +65,7 @@ setOpen(false)
 <div className="message ">
 <img src="avatar.png" alt="" />
   <div className="texts">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto omnis ad nemo odio sed quas, quia delectus sint illum quo!
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto omnis ad nemo odio sed quas, quia delectus sint illum quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, natus.
     </p>
     <span>1 min ago</span>
   </div>
