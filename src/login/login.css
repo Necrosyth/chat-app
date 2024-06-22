@@ -32,10 +32,16 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-.login-container {
-    border-right: 2px solid #ddd;
+.separator {
+    width: 1px;
+    background: #ddd;
+    height:50%; /* Adjust the height as needed */
+    margin-top: 14%;
 }
+
+/* .login-container {
+    border-right: 2px solid #ddd;
+} */
 
 h1 {
     margin-bottom: 20px;
