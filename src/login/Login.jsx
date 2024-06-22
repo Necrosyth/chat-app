@@ -1,9 +1,10 @@
 import React from 'react';
-import { auth } from '../lib/firebase';
+import { auth ,googleProvider} from '../lib/firebase';
 import './login.css';
 import { toast, ToastContainer } from 'react-toastify';
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword ,signInWithPopup} from 'firebase/auth';
 import 'react-toastify/dist/ReactToastify.css';
+import GoogleButton from 'react-google-button'
 
 const Login = () => {
     const handleLogin = e => {
@@ -16,11 +17,7 @@ const Login = () => {
         e.preventDefault();
         const formData = new FormData(e.target);
         const formEntries = Object.fromEntries(formData.entries());
-        const { username, email, password } = formEntries; 
-    console.log(
-
-        username,password,email
-    );
+        const { username, email, password } = formEntries;
         try {
             await createUserWithEmailAndPassword(auth 
                 ,email,password
@@ -31,6 +28,19 @@ const Login = () => {
      catch(err){    
         console.error(err)
         toast.error(err)
+     }
+
+    
+    }
+    const googleSignIn = async() => {
+   
+        try {
+            await signInWithPopup(auth,googleProvider)
+            toast.success("Registered successfully")
+        }
+     catch(err){    
+        // console.error(err) 
+        toast.error(err.message)
      }
 
     
@@ -55,9 +65,13 @@ const Login = () => {
                     <input type="text" name="email" placeholder="Email" required />
                     <input type="password" name="password" placeholder="Password" required />
                     <input type="file" id="imageUpload" name="image" accept="image/*" />
-                    <label htmlFor="imageUpload" className="upload-btn">Upload Image</label>
                     <button type="submit">Sign Up</button>
+
                 </form>
+                <h1>Or</h1>
+                <GoogleButton type='dark'
+  onClick={googleSignIn}
+/>
             </div>
         </div>
     );
